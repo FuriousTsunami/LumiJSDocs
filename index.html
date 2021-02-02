@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <link rel="icon" href="Icon.png" type="image/png">
   <title>LumiJS</title>
+  <script src="https://unpkg.com/docsify-edit-on-github@1.0.3/index.js"></script>
 </head>
 <body>
   <div id="app" style="text-align: center">Loading...</div>
@@ -18,6 +19,13 @@
       coverpage: true,
       el: "#app",
       loadSidebar: true,
+      plugins: [
+        EditOnGithubPlugin.create(
+          "https://github.com/FuriousTsunami/LumiJSWeb/blob/main/",
+          null,
+          '📝 Edit on GitHub',
+        ),
+      ],
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
