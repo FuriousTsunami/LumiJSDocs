@@ -77,12 +77,9 @@ var someCircle = Lumi.addEllipse(10, 10, 50, {
 
 What we just put above tells the physics engine that `someCircle` should be able to collide with things, but not be affected by the collision.
 
-## End
+## Conclusion
 
-Well, that's all for the tutorial! To continue learning about LumiJS, and how it works, you can read the methods on this documentation (left side of the page)! Or, to explore the actual source code, you could visit the 
+Well, that's all for the tutorial! To continue learning about LumiJS, and how it works, you can read the methods on this documentation (left side of the page)! Or, to explore the actual source code, you could visit the [GitHub](https://github.com/FuriousTsunami).
 
-[GitHub](https://github.com/FuriousTsunami)
 
-Have fun exploring!
-
-LumiJS is licensed under the [MIT](https://opensource.org/licenses/MIT) license by [FuriousTsunami](https://github.com/FuriousTsunami). 
+> LumiJS is licensed under the [MIT](https://opensource.org/licenses/MIT) license by [FuriousTsunami](https://github.com/FuriousTsunami). 
