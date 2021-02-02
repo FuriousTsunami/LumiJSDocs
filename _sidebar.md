@@ -1,5 +1,8 @@
-- [Home](/)
-- [Methods](/Methods.md)
+- [Getting Started](/#introduction)
+  - [Configuring Engine](/#configuring-engine)
+  - [Adding a Square](/#adding-a-square)
+  - [Exploring "config" property](/#exploring-quotconfigquot-property)
+- Methods
   - [Lumi.addRect()](/Lumi.addRect.md)
   - [Lumi.addEllipse()](/Lumi.addEllipse.md)
   - [Lumi.addImg()](/Lumi.addImg.md)
