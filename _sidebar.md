@@ -1,4 +1,4 @@
-- [Getting Started](/#introduction)
+- Getting Started
 
   - [Configuring Engine](/#configuring-engine)
   - [Adding a Square](/#adding-a-square)

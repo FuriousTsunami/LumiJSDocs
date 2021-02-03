@@ -81,5 +81,7 @@ What we just put above tells the physics engine that `someCircle` should be able
 
 Well, that's all for the tutorial! To continue learning about LumiJS, and how it works, you can read the methods on this documentation (left side of the page)! Or, to explore the actual source code, you could visit the [GitHub](https://github.com/FuriousTsunami).
 
+### License
 
-> LumiJS is licensed under the [MIT](https://opensource.org/licenses/MIT) license by [FuriousTsunami](https://github.com/FuriousTsunami). 
+LumiJS is licensed under [The MIT License (MIT)](https://opensource.org/licenses/MIT)  
+Copyright (c) 2020 Sunay Komarla
