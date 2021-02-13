@@ -16,8 +16,10 @@ Now that you're done installing LumiJS, we need to configure the engine with `Lu
 
 ```JavaScript
 Lumi.config({
-  canvasWidth: 400,
-  canvasHeight: 400,
+  canvas: {
+    width: "fitToWindow",
+    height: "fitToWindow,
+  },
   camera: {
     view: "top",
   },
