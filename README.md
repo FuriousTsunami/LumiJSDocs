@@ -54,19 +54,19 @@ This will add an X Velocity to the rectangle we just created at a 1px/frame spee
 I know that earlier I said there are 4 parameters in a `Lumi.rect` are `x`, `y`, `width`, and `height`. But what if you wanted more customization? Well, there is actually a fifth optional parameter called `config`. This time, let's create a `Lumi.ellipse` and add the `config` parameter to it:
 
 ```JavaScript
-var someCircle = Lumi.addEllipse(10, 10, 50, {
+var someCircle = Lumi.addEllipse(10, 10, 50, 50, {
   color: "green",
   mass: 0.4,
   restitution: 0.1,
 });
 ```
 
-The reason that  `someCircle` doesn't have 5 parameters is because a circle only has a radius, not a width and a height. Anyways, let's take a look at the ``config`` object we put in there. As you probably guessed, the `color` property indicates the color of the object. The `mass` property won't affect our code right now, because the camera's view is from the top, which means no gravity. The `restitution` property indicates how much an object should retain its velocity upon impact. For example, if there was an object coming with `10` velocity at `someCircle`, than when it bounced back off the circle, its velocity would be `1`, because `0.1 * 10 = 1`. 
+``Lumi.addEllipse()`` has the same parameters as a rectangle: ``x``, ``y``, ``width``, and ``height``. Anyways, let's take a look at the ``config`` object we put in there. As you probably guessed, the `color` property indicates the color of the object. The `mass` property won't affect our code right now, because the camera's view is from the top, which means no gravity. The `restitution` property indicates how much an object should retain its velocity upon impact. For example, if there was an object coming with `10` velocity at `someCircle`, than when it bounced back off the circle, its velocity would be `1`, because `0.1 * 10 = 1`. 
 
 There are also another object inside `config` called `collision`. It controls whether it can even collide with things, or if it is affected by the collision. Sometimes, this is helpful if you want objects to be moving in the "background" of your scene. Let's try adding it to `someCircle`
 
 ```JavaScript
-var someCircle = Lumi.addEllipse(10, 10, 50, {
+var someCircle = Lumi.addEllipse(10, 10, 50, 50, {
   color: "green",
   mass: 0.4,
   restitution: 0.1,
