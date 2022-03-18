@@ -6,7 +6,7 @@ It was created for the purpose of having a simplistic yet useful game/physics en
 
 To install LumiJS, all you have to do is import this [code](https://cdn.jsdelivr.net/gh/FuriousTsunami/LumiJS@master/Lumi.js) into your project.
 
-> Note: The default LumiJS build contains helpful comments, but has a large size (12.6 KB). To optimize your project's size, use [this](https://cdn.jsdelivr.net/gh/FuriousTsunami/LumiJS@master/Lumi.min.js) build (5.98 KB).
+> Note: The default LumiJS build contains helpful comments, but has a large size. To optimize your project's size, use [this](https://cdn.jsdelivr.net/gh/FuriousTsunami/LumiJS@master/Lumi.min.js) build.
 
 After you have imported LumiJS, you're ready to start programming!
 
