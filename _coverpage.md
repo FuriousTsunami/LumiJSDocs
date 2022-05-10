@@ -1,6 +1,8 @@
 <image src="Logo.png" width="150px" height="150px" alt="LumiJS Logo"></image>
-
-<image src="LumiJS.png" width="270px" height="200px"></image>
+<b><h1 style="font-family: 'Montserrat', sans-serif; font-size: 3rem; text-shadow: -2px 2px 0 yellow,
+				  2px 2px 0 yellow,
+				 2px -2px 0 yellow;
+				-2px -2px 0 yellow;">LumiJS</h1></b>
 
 > A compact multipurpose physics and graphics engine.
 
